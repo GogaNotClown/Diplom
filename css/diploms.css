@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+a {
+    all: unset;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 500px;
+    border-radius: 5px;
+    padding: 35px 35px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo {
+    width: 15%;
+    padding: 15px 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+span {
+    color: darkgray;
+    font-weight: 500;
+}
+
+.surname, .name, .patronymic, .extent, .rank, .telephone, .email {
+    font-size: 15pt;
+    font-weight: 400;
+}
+
+.other {
+    margin-top: 25px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.ban {
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 15px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: #DB4437;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+.ban:hover {
+    background-color: rgba(219, 68, 55, 0.7);
+    transition: .3s;
+}
+
+.ban:not(:hover) {
+    transition: .3s;
+}

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+    list-style: none;
+}
+
+a {
+    all: unset;
+}
+
+body {
+    background: url("../img/login background.png");
+}
+
+.container {
+    max-width: 650px;
+    margin: 300px auto auto;
+}
+
+.auth__block {
+    background-color: white;
+    width: 600px;
+    height: 375px;
+    border-radius: 35px;
+    padding: 35px 35px;
+    box-shadow: 4px 4px 100px 13px rgba(0, 0, 0, 0.1);
+}
+
+.auth__form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.auth__text {
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+
+.auth__field {
+    display: block;
+    border-radius: 8px;
+    width: 418px;
+}
+
+.auth__input {
+    border: 0;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    color: inherit;
+    outline: none;
+    width: 100%;
+    height: 56px;
+    padding: 0 16px 0;
+    border-radius: inherit;
+    background-color: #ecf1f7;
+    margin: 25px;
+    display: block;
+}
+
+.auth__button {
+    display: block;
+    margin: 35px auto auto;
+    border: none;
+    outline: none;
+    padding: 15px 15px;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 10px;
+    font-size: inherit;
+    background-color: #4f46e5;
+    color: #FFFFFF;
+}
+
+.auth__button:hover {
+    background-color: rgba(79, 70, 229, .7);
+    transition: .3s;
+}
+
+.auth__button:not(:hover) {
+    transition: .3s;
+}
+
+.auth__error {
+    display: block;
+    margin: 15px 30px auto;
+}
+
+.footer {
+    max-width: 100%;
+}
+
+.footer__text {
+    text-align: center;
+    font-size: inherit;
+    margin-top: 200px;
+    cursor: pointer;
+}
